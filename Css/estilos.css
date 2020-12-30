@@ -152,7 +152,7 @@ table tr td{
 	/*border-style: solid;*/ /*comentar después*/
 	border-color: red;
 	text-align: center;
-	background-color: #10100F;
+	/*background-color: #10100F;*/
 }
 td img{
 	border-radius: 50%;
