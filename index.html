@@ -11,6 +11,7 @@
 	<link rel="shortcut icon" type="image/x-icon" href="Imagenes/asadero.ico">
   </head>
   <body>
+
     <header>
         <div class="container-fluid">
             <div class="row">
@@ -27,11 +28,98 @@
     </header>
 
     <section class="wrapper">
-        <section class="main">
-            <p></p>
+        <!-- Carousel -->
+        <section class="main ">
+            <div id="carouselExampleIndicators" class="carousel slide d-none d-md-block" data-bs-ride="carousel">
+                <ol class="carousel-indicators">
+                  <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
+                  <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
+                  <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
+                  <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"></li>
+                  <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"></li>
+                </ol>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="Imagenes/Promo1.jpg" class="d-block w-100" alt="Promo 1">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="Imagenes/Promo2.jpg" class="d-block w-100" alt="Promo 2">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="Imagenes/Promo3.jpg" class="d-block w-100" alt="Promo 3">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="Imagenes/Promo4.jpg" class="d-block w-100" alt="Promo 4">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="Imagenes/Promo5.jpg" class="d-block w-100" alt="Promo 5">
+                  </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </a>
+              </div>
         </section>
+        <!-- /Carousel -->
+        <!-- Promociones no-carousel -->
+        <article >
+            <div class="container d-block  d-md-none">
+                <div class="row">
+                    <img src="Imagenes/Promo1.jpg" class="d-block w-100" alt="Promo 1" style="height: 20vh;">
+                </div>
+                <div class="row">
+                    <img src="Imagenes/Promo2.jpg" class="d-block w-100" alt="Promo 2"style="height: 20vh;">
+                </div>
+                <div class="row">
+                    <img src="Imagenes/Promo3.jpg" class="d-block w-100" alt="Promo 3"style="height: 20vh;">
+                </div>
+                <div class="row">
+                    <img src="Imagenes/Promo4.jpg" class="d-block w-100" alt="Promo 4"style="height: 20vh;">
+                </div>
+                <div class="row">
+                    <img src="Imagenes/Promo5.jpg" class="d-block w-100" alt="Promo 5"style="height: 20vh;">
+                </div>
+            </div>
+
+
+
+
+        </article>
+        <!-- Contacto Index -->
         <article>
-            
+            <p><br>
+            <div class="container">
+                <div class="row">
+                    <div class="col text-center" style="color: white;">
+                        <h3>Contactanos</h3>
+                    </div>
+                </div>
+            </div>
+            </p>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-4 text-center d-none d-md-block">
+                        <img  class="contactoindex" class="floatleft" src="Imagenes/interior2.jpg" style="height: 20vh;">
+                    </div>
+                    <div class="col-12 col-md-4 text-center d-block  d-md-none">
+                        <img  class="" class="floatleft" src="Imagenes/interior2.jpg" style="height: 25vh;">
+                    </div>
+                    <div class="col-12 col-md-4 text-center">
+                        <a target="_blank" href="https://www.google.com/maps/place/Asadero+del+Abuelo/@19.1671319,-96.1168703,17z/data=!3m1!4b1!4m5!3m4!1s0x85c341271da3cf0f:0xfa253e8d2b48574c!8m2!3d19.1671268!4d-96.1146816">
+                        <img  class="mapright"  src="Imagenes/maps.jpg" style="height: 20vh;" >
+                        </a>
+                    </div>
+                    <div class="col-12 col-md-4 text-center">
+                        <img  class="contactoindex" src="Imagenes/contacto.jpg"style="height: 20vh;"  >
+                    </div>
+                </div>
+            </div>
+
         </article>
     </section>
 
@@ -42,10 +130,10 @@
     <footer>
         <div class="container">
             <div class="row">
-                <div class="col mt-2">
-                    <p class="floatleft" > <b>Raul Acosta 2020 </b> </p> 
+                <div class="col-4 mt-2">
+                    <p class="floatleft" > <b>Raul Acosta 2021 </b> </p> 
                 </div>
-                <div class="col">
+                <div class="col-1">
                     <a target="_blank" href="https://twitter.com/raul_acosta95"><img src="Imagenes/twitter.jpg" height="20"></a>
                 </div>
             </div>

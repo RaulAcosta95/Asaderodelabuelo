@@ -13,12 +13,13 @@ footer img{
 body{
     background-color: black;
 }
-img{
+header img{
     max-height:20vh;
     display: inline-block;
     float: left;
     margin-left: 0px;
 }
+
 a{
     text-decoration: none;
     color: white;
@@ -34,7 +35,9 @@ a:hover{
     font-size: 24px;
     color: white;
 }
-
+.contactoindex{
+    border-radius: 30%;
+}
 
 .borde{
     border-style: solid;
