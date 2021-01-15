@@ -42,10 +42,28 @@ a{
 /* / Enlaces */
 
 /* Estilos de letra y parrafos */
+.main h1{
+	font-size: 70px;
+	text-align: center;
+	font-family: "Brush Script MT";
+}
+.main h1:hover{
+		color:#F8A616;
+}
 
 /* / Estilos de letra y parrafos */
+/*  Cards */
+#carta { 
+    display: flex; 
+    flex-direction: column; 
+    margin-bottom: 15px;
 
-
+}
+#color_carta{
+    background-color: #262626;
+    color: #E5E5E5;
+}
+/* / Cards */
 
 /* Estilos opcionales */
 .floatleft{float: left;}
