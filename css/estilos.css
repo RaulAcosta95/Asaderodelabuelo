@@ -39,6 +39,9 @@ a{
     font-weight: bold;
     -webkit-text-stroke: 2px black;
 }
+a:hover{
+    color: white;
+}
 /* / Enlaces */
 
 /* Estilos de letra y parrafos */
