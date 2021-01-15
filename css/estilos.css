@@ -1,3 +1,7 @@
+/* Secciones de html */
+body{
+    background-color: black;
+}
 header{
     background-color: #f9a416;
 }
@@ -6,12 +10,11 @@ footer{
     color: white;
     bottom: 0;
 }
+/* / Secciones de html */
+/* Imagenes */
 footer img{
 	margin-left: 30px;
 	margin-top: 12px;
-}
-body{
-    background-color: black;
 }
 header img{
     max-height:20vh;
@@ -19,8 +22,11 @@ header img{
     float: left;
     margin-left: 0px;
 }
-
-
+.contactoindex{
+    border-radius: 30%;
+}
+/* / Imagenes */
+/* Enlaces */
 a{
     text-decoration: none;
     color: white;
@@ -33,10 +39,11 @@ a{
     font-weight: bold;
     -webkit-text-stroke: 2px black;
 }
+/* / Enlaces */
 
-.contactoindex{
-    border-radius: 30%;
-}
+/* Estilos de letra y parrafos */
+
+/* / Estilos de letra y parrafos */
 
 
 
