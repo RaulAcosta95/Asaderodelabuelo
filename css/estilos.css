@@ -25,6 +25,12 @@ header img{
 .contactoindex{
     border-radius: 30%;
 }
+#imgmapa1{
+    height: 35vh;
+}
+#imgmapa2{
+    height: 50vh;
+}
 /* / Imagenes */
 /* Enlaces */
 a{
@@ -53,7 +59,10 @@ a:hover{
 .main h1:hover{
 		color:#f9a416;
 }
-
+#dirección p{
+    color:#f9a416;
+    font-size: 20px;
+}
 /* / Estilos de letra y parrafos */
 /*  Cards */
 #carta { 
