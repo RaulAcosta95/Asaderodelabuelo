@@ -1,6 +1,6 @@
 /* Secciones de html */
 body{
-    background-color: black;
+    background-color: #060400;
 }
 header{
     background-color: #f9a416;
@@ -39,6 +39,9 @@ a{
     font-weight: bold;
     -webkit-text-stroke: 2px black;
 }
+a:hover{
+    color: white;
+}
 /* / Enlaces */
 
 /* Estilos de letra y parrafos */
@@ -48,7 +51,7 @@ a{
 	font-family: "Brush Script MT";
 }
 .main h1:hover{
-		color:#F8A616;
+		color:#f9a416;
 }
 
 /* / Estilos de letra y parrafos */
