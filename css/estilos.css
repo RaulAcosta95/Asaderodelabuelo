@@ -48,6 +48,9 @@ a{
 a:hover{
     color: white;
 }
+#paginaactual{
+    font-size: 36px;
+}
 /* / Enlaces */
 
 /* Estilos de letra y parrafos */
