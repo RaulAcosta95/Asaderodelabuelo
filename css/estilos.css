@@ -48,6 +48,11 @@ a{
 a:hover{
     color: white;
 }
+header div .col-12 a{
+    /* border-style: solid;
+    border-color: #060400; */
+}
+
 #paginaactual{
     font-size: 36px;
 }
